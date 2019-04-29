@@ -1,24 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-us">
 
-<!doctype html>
-<html lang="en">
 <head>
-    <title>Home at Heart Care Application</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta property="og:title" content="Home at Heart Care Application" >
-    <meta property="og:description" content="Please click the link to complete this form.">
-    <!-- Include Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <!-- Include SmartWizard CSS -->
-    <link href="css/smart_wizard.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Optional SmartWizard theme -->
-    <link href="css/smart_wizard_theme_circles.min.css" rel="stylesheet" type="text/css" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
+<link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-production-plugins.min.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-production.min.css">
+		<style>
          .lblCls {
             color: darkgray;
             font-size: 13px;
@@ -67,1291 +62,1352 @@
     </style>
 </head>
 <body>
-    <div class="container form-all">
-        <!-- SmartWizard html -->
-        <div id="smartwizard">
-            <ul>
-                <li style="margin-left:0px;"><a href="#step-1">1<br /><small>PCA Onboarding Application</small></a></li>
-                <li style="margin-left:120px;"><a href="#step-2">2<br /><small>Employment History</small></a></li>
-                <li style="margin-left:120px;"><a href="#step-3">3<br /><small>Professional References</small></a></li>
-                <li style="margin-left:120px;"><a href="#step-4">4<br /><small>Save Form</small></a></li>
-            </ul>
-
-            <div>
-                <div id="step-1" class="">
-                    <h3 class="border-bottom border-gray pb-2">PCA Onboarding Application</h3>
-                    <!-- step 1 start-->
-                    <div class="container">
-                            <div class="form-row row-bottom-margin">
-                                <div class="col-md-4  labl-v-align">
-                                    Full Name
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="form-row">
-                                        <div class="form-group col-md-4">
-                                            <label for="fName" class="lblCls">First Name</label>
-                                            <div class="input-group mb-3 input-group-sm">
-                                                <input type="text" id="fName" class="form-control " size="10" value=""
-                                                    aria-describedby="basic-addon2" />
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text" id="basic-addon2"><i
-                                                            class="fa fa-user"></i></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-md-4">
-                                            <label for="mName" class="lblCls">Middle Name</label>
-                                            <div class="input-group mb-3  input-group-sm">
-                                                <input type="text" id="mName" class="form-control " size="10" value=""
-                                                    aria-describedby="basic-addon2" />
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text" id="basic-addon2"><i
-                                                            class="fa fa-user"></i></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-md-4">
-                                            <label for="lName" class="lblCls">Last Name</label>
-                                            <div class="input-group mb-3  input-group-sm">
-                                                <input type="text" id="lName" class="form-control " size="10" value=""
-                                                    aria-describedby="basic-addon2" />
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text" id="basic-addon2"><i
-                                                            class="fa fa-user"></i></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- column -->
-                            </div><!-- row -->
-            
-                            <div class="form-row row-bottom-margin">
-                                <div class="col-md-4 ">
-                                    &nbsp;
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="form-row">
-                                        <div class="form-group col-md-4">
-                                            <label for="dob" class="lblCls">Date of Birth</label>
-                                            <div class="input-group date mb-3  input-group-sm" id='datetimepicker1'>
-                                                <input type="text" class="form-control form-control-sm" id="dob" value="12-02-2012"
-                                                    aria-describedby="basic-addon4">
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text" id="basic-addon4"><i
-                                                            class="fa fa-calendar"></i></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-md-8">
-                                            <label for="male" class="lblCls">Gender</label>
-                                            <div class="input-group ">
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" id="male" name="male" class="custom-control-input">
-                                                    <label class="custom-control-label" for="male">Male</label>
-                                                </div>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" id="female" name="male" class="custom-control-input">
-                                                    <label class="custom-control-label" for="female">Female</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--dob column -->
-                            </div><!-- dob row -->
-            
-                            <div class="form-row">
-                                <div class="col-md-4   labl-v-align">
-                                    Address
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="form-row">
-                                        <div class="form-group col-md-8">
-                                            <label for="streetAddr" class="lblCls">Street Address</label>
-                                            <input type="text" id="streetAddr" class="form-control  form-control-sm" value="" />
-                                            <!-- form-control-sm -->
-                                        </div>
-            
-                                        <div class="form-group col-md-4">&nbsp;</div>
-                                    </div>
-                                </div><!-- address column -->
-                            </div><!-- address row -->
-            
-                            <div class="form-row">
-                                <div class="col-md-4 ">
-                                    &nbsp;
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="form-row">
-                                        <div class="form-group col-md-8">
-                                            <label for="fName" class="lblCls">Street Address Line 2</label>
-                                            <input type="text" id="fName" class="form-control form-control-sm" size="10" value="" />
-                                            <!-- form-control-sm -->
-                                        </div>
-            
-                                        <div class="form-group col-md-4">&nbsp;</div>
-                                    </div>
-                                </div>
-                                <!--street address2 column -->
-                            </div><!-- street address2 row -->
-            
-                            <div class="form-row">
-                                <div class="col-md-4 ">
-                                    &nbsp;
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="form-row">
-                                        <div class="form-group col-md-4">
-                                            <label for="city" class="lblCls">City</label>
-                                            <input type="text" id="city" class="form-control form-control-sm" size="10" value="" />
-                                            <!-- form-control-sm -->
-                                        </div>
-                                        <div class="form-group col-md-4">
-                                            <label for="state" class="lblCls">State</label>
-                                            <!-- <input type="text" id="state" class="form-control" size="10" value="" /> -->
-                                            <div class="dropdown">
-                                                <button class="btn btn-secondary dropdown-toggle btn-sm" type="button"
-                                                    id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">
-                                                    Dropdown
-                                                </button>
-                                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                    <button class="dropdown-item" type="button" value="AL">Alabama</button>
-                                                    <button class="dropdown-item" type="button" value="AK">Alaska</button>
-                                                    <button class="dropdown-item" type="button" value="AZ">Arizona</button>
-                                                    <button class="dropdown-item" type="button" value="AR">Arkansas</button>
-                                                    <button class="dropdown-item" type="button" value="CA">California</button>
-                                                    <button class="dropdown-item" type="button" value="CO">Colorado</button>
-                                                    <button class="dropdown-item" type="button" value="CT">Connecticut</button>
-                                                    <button class="dropdown-item" type="button" value="DE">Delaware</button>
-                                                    <button class="dropdown-item" type="button" value="DC">District Of Columbia</button>
-                                                    <button class="dropdown-item" type="button" value="FL">Florida</button>
-                                                    <button class="dropdown-item" type="button" value="GA">Georgia</button>
-                                                    <button class="dropdown-item" type="button" value="HI">Hawaii</button>
-                                                    <button class="dropdown-item" type="button" value="ID">Idaho</button>
-                                                    <button class="dropdown-item" type="button" value="IL">Illinois</button>
-                                                    <button class="dropdown-item" type="button" value="IN">Indiana</button>
-                                                    <button class="dropdown-item" type="button" value="IA">Iowa</button>
-                                                    <button class="dropdown-item" type="button" value="KS">Kansas</button>
-                                                    <button class="dropdown-item" type="button" value="KY">Kentucky</button>
-                                                    <button class="dropdown-item" type="button" value="LA">Louisiana</button>
-                                                    <button class="dropdown-item" type="button" value="ME">Maine</button>
-                                                    <button class="dropdown-item" type="button" value="MD">Maryland</button>
-                                                    <button class="dropdown-item" type="button" value="MA">Massachusetts</button>
-                                                    <button class="dropdown-item" type="button" value="MI">Michigan</button>
-                                                    <button class="dropdown-item" type="button" value="MN">Minnesota</button>
-                                                    <button class="dropdown-item" type="button" value="MS">Mississippi</button>
-                                                    <button class="dropdown-item" type="button" value="MO">Missouri</button>
-                                                    <button class="dropdown-item" type="button" value="MT">Montana</button>
-                                                    <button class="dropdown-item" type="button" value="NE">Nebraska</button>
-                                                    <button class="dropdown-item" type="button" value="NV">Nevada</button>
-                                                    <button class="dropdown-item" type="button" value="NH">New Hampshire</button>
-                                                    <button class="dropdown-item" type="button" value="NJ">New Jersey</button>
-                                                    <button class="dropdown-item" type="button" value="NM">New Mexico</button>
-                                                    <button class="dropdown-item" type="button" value="NY">New York</button>
-                                                    <button class="dropdown-item" type="button" value="NC">North Carolina</button>
-                                                    <button class="dropdown-item" type="button" value="ND">North Dakota</button>
-                                                    <button class="dropdown-item" type="button" value="OH">Ohio</button>
-                                                    <button class="dropdown-item" type="button" value="OK">Oklahoma</button>
-                                                    <button class="dropdown-item" type="button" value="OR">Oregon</button>
-                                                    <button class="dropdown-item" type="button" value="PA">Pennsylvania</button>
-                                                    <button class="dropdown-item" type="button" value="RI">Rhode Island</button>
-                                                    <button class="dropdown-item" type="button" value="SC">South Carolina</button>
-                                                    <button class="dropdown-item" type="button" value="SD">South Dakota</button>
-                                                    <button class="dropdown-item" type="button" value="TN">Tennessee</button>
-                                                    <button class="dropdown-item" type="button" value="TX">Texas</button>
-                                                    <button class="dropdown-item" type="button" value="UT">Utah</button>
-                                                    <button class="dropdown-item" type="button" value="VT">Vermont</button>
-                                                    <button class="dropdown-item" type="button" value="VA">Virginia</button>
-                                                    <button class="dropdown-item" type="button" value="WA">Washington</button>
-                                                    <button class="dropdown-item" type="button" value="WV">West Virginia</button>
-                                                    <button class="dropdown-item" type="button" value="WI">Wisconsin</button>
-                                                    <button class="dropdown-item" type="button" value="WY">Wyoming</button>
-                                                </div>
-                                            </div>
-                                            <!-- form-control-sm -->
-                                        </div>
-                                        <div class="form-group col-md-4">
-                                            <label for="zipCode" class="lblCls">Zip Code</label>
-                                            <input type="text" id="zipCode" class="form-control form-control-sm" size="10"
-                                                value="" />
-                                            <!-- form-control-sm -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--city column -->
-                        </div><!-- city row -->
-            
-                        <div class="form-row">
-                            <div class="col-md-4 ">
-                                &nbsp;
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form-row">
-                                    <div class="form-group col-md-4">
-                                        <label for="country" class="lblCls">Country</label>
-                                        <!-- <input type="text" id="country" class="form-control" size="10" value="" /> -->
-                                        <div class="dropdown">
-                                            <button class="btn btn-secondary dropdown-toggle btn-sm" type="button"
-                                                id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">
-                                                Dropdown
-                                            </button>
-                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                <button class="dropdown-item" type="button" value="Aitkin">Aitkin</button>
-                      <button class="dropdown-item" type="button" value="Anoka">Anoka</button>
-                      <button class="dropdown-item" type="button" value="Becker">Becker</button>
-                      <button class="dropdown-item" type="button" value="Beltrami">Beltrami</button>
-                      <button class="dropdown-item" type="button" value="Benton">Benton</button>
-                      <button class="dropdown-item" type="button" value="Big Stone">Big Stone</button>
-                      <button class="dropdown-item" type="button" value="Blue Earth">Blue Earth</button>
-                      <button class="dropdown-item" type="button" value="Brown">Brown</button>
-                      <button class="dropdown-item" type="button" value="Carlton">Carlton</button>
-                      <button class="dropdown-item" type="button" value="Carver">Carver</button>
-                      <button class="dropdown-item" type="button" value="Cass">Cass</button>
-                      <button class="dropdown-item" type="button" value="Chippewa">Chippewa</button>
-                      <button class="dropdown-item" type="button" value="Chisago">Chisago</button>
-                      <button class="dropdown-item" type="button" value="Clay">Clay</button>
-                      <button class="dropdown-item" type="button" value="Clearwater">Clearwater</button>
-                      <button class="dropdown-item" type="button" value="Cook">Cook</button>
-                      <button class="dropdown-item" type="button" value="Cottonwood">Cottonwood</button>
-                      <button class="dropdown-item" type="button" value="Crow Wing">Crow Wing</button>
-                      <button class="dropdown-item" type="button" value="Dakota">Dakota</button>
-                      <button class="dropdown-item" type="button" value="Dodge">Dodge</button>
-                      <button class="dropdown-item" type="button" value="Douglas">Douglas</button>
-                      <button class="dropdown-item" type="button" value="Faribault">Faribault</button>
-                      <button class="dropdown-item" type="button" value="Fillmore">Fillmore</button>
-                      <button class="dropdown-item" type="button" value="Freeborn">Freeborn</button>
-                      <button class="dropdown-item" type="button" value="Goodhue">Goodhue</button>
-                      <button class="dropdown-item" type="button" value="Grant">Grant</button>
-                      <button class="dropdown-item" type="button" value="Hennepin">Hennepin</button>
-                      <button class="dropdown-item" type="button" value="Houston">Houston</button>
-                      <button class="dropdown-item" type="button" value="Hubbard">Hubbard</button>
-                      <button class="dropdown-item" type="button" value="Isanti">Isanti</button>
-                      <button class="dropdown-item" type="button" value="Itasca">Itasca</button>
-                      <button class="dropdown-item" type="button" value="Jackson">Jackson</button>
-                      <button class="dropdown-item" type="button" value="Kanabec">Kanabec</button>
-                      <button class="dropdown-item" type="button" value="Kandiyohi">Kandiyohi</button>
-                      <button class="dropdown-item" type="button" value="Kittson">Kittson</button>
-                      <button class="dropdown-item" type="button" value="Koochiching">Koochiching</button>
-                      <button class="dropdown-item" type="button" value="Lac Qui Parle">Lac Qui Parle</button>
-                      <button class="dropdown-item" type="button" value="Lake">Lake</button>
-                      <button class="dropdown-item" type="button" value="Lake Of The Wood">Lake Of The Wood</button>
-                      <button class="dropdown-item" type="button" value="Le Sueur">Le Sueur</button>
-                      <button class="dropdown-item" type="button" value="Lincoln">Lincoln</button>
-                      <button class="dropdown-item" type="button" value="Lyon">Lyon</button>
-                      <button class="dropdown-item" type="button" value="Mahnomen">Mahnomen</button>
-                      <button class="dropdown-item" type="button" value="Marshall">Marshall</button>
-                      <button class="dropdown-item" type="button" value="Martin">Martin</button>
-                      <button class="dropdown-item" type="button" value="McLeod">McLeod</button>
-                      <button class="dropdown-item" type="button" value="Meeker">Meeker</button>
-                      <button class="dropdown-item" type="button" value="Mille Lacs">Mille Lacs</button>
-                      <button class="dropdown-item" type="button" value="Morrison">Morrison</button>
-                      <button class="dropdown-item" type="button" value="Mower">Mower</button>
-                      <button class="dropdown-item" type="button" value="Murray">Murray</button>
-                      <button class="dropdown-item" type="button" value="Nicollet">Nicollet</button>
-                      <button class="dropdown-item" type="button" value="Nobles">Nobles</button>
-                      <button class="dropdown-item" type="button" value="Norman">Norman</button>
-                      <button class="dropdown-item" type="button" value="Olmsted">Olmsted</button>
-                      <button class="dropdown-item" type="button" value="Otter Tail">Otter Tail</button>
-                      <button class="dropdown-item" type="button" value="Pennington">Pennington</button>
-                      <button class="dropdown-item" type="button" value="Pine">Pine</button>
-                      <button class="dropdown-item" type="button" value="Pipestone">Pipestone</button>
-                      <button class="dropdown-item" type="button" value="Polk">Polk</button>
-                      <button class="dropdown-item" type="button" value="Pope">Pope</button>
-                      <button class="dropdown-item" type="button" value="Ramsey">Ramsey</button>
-                      <button class="dropdown-item" type="button" value="Red Lake">Red Lake</button>
-                      <button class="dropdown-item" type="button" value="Redwood">Redwood</button>
-                      <button class="dropdown-item" type="button" value="Renville">Renville</button>
-                      <button class="dropdown-item" type="button" value="Rice">Rice</button>
-                      <button class="dropdown-item" type="button" value="Rock">Rock</button>
-                      <button class="dropdown-item" type="button" value="Roseau">Roseau</button>
-                      <button class="dropdown-item" type="button" value="St. Louis">St. Louis</button>
-                      <button class="dropdown-item" type="button" value="Scott">Scott</button>
-                      <button class="dropdown-item" type="button" value="Sherburne">Sherburne</button>
-                      <button class="dropdown-item" type="button" value="Sibley">Sibley</button>
-                      <button class="dropdown-item" type="button" value="Stearns">Stearns</button>
-                      <button class="dropdown-item" type="button" value="Steele">Steele</button>
-                      <button class="dropdown-item" type="button" value="Stevens">Stevens</button>
-                      <button class="dropdown-item" type="button" value="Swift">Swift</button>
-                      <button class="dropdown-item" type="button" value="Todd">Todd</button>
-                      <button class="dropdown-item" type="button" value="Traverse">Traverse</button>
-                      <button class="dropdown-item" type="button" value="Wabasha">Wabasha</button>
-                      <button class="dropdown-item" type="button" value="Wadena">Wadena</button>
-                      <button class="dropdown-item" type="button" value="Waseca">Waseca</button>
-                      <button class="dropdown-item" type="button" value="Washington">Washington</button>
-                      <button class="dropdown-item" type="button" value="Watonwan">Watonwan</button>
-                      <button class="dropdown-item" type="button" value="Wilkin">Wilkin</button>
-                      <button class="dropdown-item" type="button" value="Winona">Winona</button>
-                      <button class="dropdown-item" type="button" value="Wright">Wright</button>
-                      <button class="dropdown-item" type="button" value="Yellow Medicine">Yellow Medicine</button>
-                                            </div>
-                                        </div>
-                                        <!-- form-control-sm -->
-                                    </div>
-                                    <div class="form-group col-md-8">
-                                        &nbsp;
-                                    </div>
-                                </div>
-                            </div>
-                            <!--country column -->
-                        </div><!-- country row -->
-            
-                        <div class="form-row">
-                            <div class="col-md-4    labl-v-align">
-                                Contact Info
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <label for="phoneNo" class="lblCls">Phone Number</label>
-                                        <div class="input-group mb-3">
-                                            <input type="text" id="phone" class="form-control form-control-sm" size="10" value=""
-                                                placeholder="(____)___-___" aria-describedby="basic-addon2" />
-                                            <!-- form-control-sm -->
-                                            <div class="input-group-append">
-                                                <span class="input-group-text" id="basic-addon2"><i class="fa fa-user"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label for="email" class="lblCls">Email</label>
-                                        <div class="input-group mb-3 input-group-sm">
-                                            <input type="email" id="email" class="form-control " value=""
-                                                aria-describedby="basic-addon-email6" /> <!-- form-control-sm -->
-                                            <div class="input-group-append">
-                                                <span class="input-group-text" id="basic-addon-email6"><i
-                                                        class="fa fa-envelope"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- <div class="form-group col-md-4">&nbsp;</div> -->
-                                </div>
-                            </div>
-                            <!--cotact info column -->
-                        </div>
-                        <!--contact info row -->
-            
-                        <div class="form-row">
-                            <div class="col-md-4 ">
-                                &nbsp;
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form-row">
-                                    <div class="form-group col-md-4">
-                                        <label for="ssn" class="lblCls">SSN</label>
-                                        
-                                        <div class="input-group mb-3 input-group-sm">
-                                            <input type="text" id="ssn" class="form-control form-control-sm" size="10" value="" aria-describedby="basic-addon6"/>
-                                            <div class="input-group-append">
-                                                <span class="input-group-text" id="basic-addon7">#</span>
-                                            </div>
-                                        </div>
-                                        <!-- form-control-sm -->
-                                    </div>
-                                    <div class="form-group col-md-8">
-                                        <label for="male" class="lblCls">US Citizen</label>
-                                        <div class="input-group input-group-sm">
-                                            <div class="custom-control custom-radio custom-control-inline">
-                                                <input type="radio" id="yes" name="yes" class="custom-control-input">
-                                                <label class="custom-control-label" for="yes">Yes</label>
-                                            </div>
-                                            <div class="custom-control custom-radio custom-control-inline">
-                                                <input type="radio" id="no" name="yes" class="custom-control-input">
-                                                <label class="custom-control-label" for="no">No</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--SSN column -->
-                        </div><!-- SSN row -->
-            
-                        <div class="form-row">
-                            <div class="col-md-4    labl-v-align">
-                                PCA Info
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form-row">
-                                    <div class="form-group col-md-4">
-                                        <label for="fName" class="lblCls">PCA Certification No.</label>
-                                        <div class="input-group mb-3 input-group-sm">
-                                                <input type="text" id="fName" class="form-control form-control-sm" size="10" value="" aria-describedby="basic-addon8"/>
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text" id="basic-addon8">#</span>
-                                                </div>
-                                            </div>
-                                        <!-- form-control-sm -->
-            
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                        <label for="mName" class="lblCls">Passed Date</label>
-                                        <input type="text" id="mName" class="form-control form-control-sm" size="10" value="" />
-                                        <!-- form-control-sm -->
-            
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                        <label for="lName" class="lblCls">BGS Number</label>
-                                        <input type="text" id="lName" class="form-control form-control-sm" size="10" value="" />
-                                        <!-- form-control-sm -->
-            
-                                    </div>
-                                </div>
-                            </div>
-                            <!--PCA info column -->
-                        </div>
-                        <!--PCA Info row -->
-            
-                        <div class="form-row">
-                            <div class="col-md-4    labl-v-align">
-                                Emergency Contact
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form-row">
-                                    <div class="form-group col-md-4">
-                                        <label for="ec_fName" class="lblCls">First Name</label>
-                                        <div class="input-group mb-3 input-group-sm">
-                                            <input type="text" id="ec_fName" class="form-control " size="10" value=""
-                                                aria-describedby="basic-addon2" /> <!-- form-control-sm -->
-                                            <div class="input-group-append">
-                                                <span class="input-group-text" id="basic-addon2"><i class="fa fa-user"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                        <label for="ec_lName" class="lblCls">Last Name</label>
-                                        <div class="input-group mb-3 input-group-sm">
-                                            <input type="text" id="ec_lName" class="form-control " size="10" value=""
-                                                aria-describedby="basic-addon2" /> <!-- form-control-sm -->
-                                            <div class="input-group-append">
-                                                <span class="input-group-text" id="basic-addon2"><i class="fa fa-user"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                        <label for="ec_phone" class="lblCls">Phone Number</label>
-                                        <div class="input-group mb-3 input-group-sm">
-                                            <input type="phone" id="ec_phone" class="form-control " size="10" value=""
-                                                aria-describedby="basic-addon2" /> <!-- form-control-sm -->
-                                            <div class="input-group-append">
-                                                <span class="input-group-text" id="basic-addon2"><i class="fa fa-user"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Emergency contact column -->
-                        </div>
-                        <!--Emergency contact row -->
-            
-                        <div class="form-row">
-                            <div class="col-md-4 form-label">
-                                Position Applying For:
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <!-- <label for="position_applying">&nbsp;</label> -->
-                                        <!-- <div class="input-group mb-3"> -->
-                                        <input type="text" id="position_applying" class="form-control form-control-sm" size="10"
-                                            value="" /> <!--  -->
-                                        <!-- <div class="input-group-append">
-                                                    <span class="input-group-text" id="basic-addon2"><i
-                                                            class="fa fa-user"></i></span>
-                                                </div>
-                                            </div> -->
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        &nbsp;
-                                    </div>
-            
-                                </div>
-                            </div>
-                            <!--Position applying column -->
-                        </div>
-                        <!--Position applying row -->
-            
-            
-                        <div class="form-row">
-                            <div class="col-md-4 form-label">
-                                Were you employed at this agency?
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form-row">
-                                    <div class="form-group col-md-4">
-                                        <div class="input-group ">
-                                            <div class="custom-control custom-radio custom-control-inline">
-                                                <input type="radio" id="employed_yes" name="employed" class="custom-control-input">
-                                                <label class="custom-control-label" for="employed_yes">Yes</label>
-                                            </div>
-                                            <div class="custom-control custom-radio custom-control-inline">
-                                                <input type="radio" id="employed_no" name="employed" class="custom-control-input">
-                                                <label class="custom-control-label" for="employed_no">No</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                        &nbsp;
-                                    </div>
-            
-                                </div>
-                            </div>
-                            <!--Were you employed at this agency?column -->
-                        </div>
-                        <!--Were you employed at this agency?row -->
-            
-            
-                        <div class="form-row">
-                            <div class="col-md-4 form-label">
-                                If yes, last date worked
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <!-- <label for="position_applying">&nbsp;</label> -->
-                                        <!-- <div class="input-group mb-3"> -->
-                                        <input type="number" id="lastDateWorked" class="form-control form-control-sm" size="10"
-                                            value="" /> <!-- form-control-sm -->
-                                        <!-- <div class="input-group-append">
-                                                    <span class="input-group-text" id="basic-addon2"><i
-                                                            class="fa fa-user"></i></span>
-                                                </div>
-                                            </div> -->
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        &nbsp;
-                                    </div>
-            
-                                </div>
-                            </div>
-                            <!--Position applying column -->
-                        </div>
-                        <!--Position applying row -->
-                        <!-- Referral starts -->
-                        <div class="form-row">
-                            <div class="col-md-12 ">
-                                <div class="form-header-group ">
-                                    <div class="header-text httal htvam">
-                                        <h4 id="header_100" class="form-header" data-component="header">
-                                            Referral
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-            
-            
-                        <div class="form-row">
-                            <div class="col-md-4    labl-v-align">
-                                Referred by
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <label for="fName" class="lblCls">First Name</label>
-                                        <div class="input-group mb-3 input-group-sm">
-                                            <input type="text" id="fName" class="form-control " size="10" value=""
-                                                aria-describedby="basic-addon2" />
-                                            <div class="input-group-append">
-                                                <span class="input-group-text" id="basic-addon2"><i class="fa fa-user"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-            
-                                    <div class="form-group col-md-6">
-                                        <label for="lName" class="lblCls">Last Name</label>
-                                        <div class="input-group mb-3  input-group-sm">
-                                            <input type="text" id="lName" class="form-control " size="10" value=""
-                                                aria-describedby="basic-addon2" />
-                                            <div class="input-group-append">
-                                                <span class="input-group-text" id="basic-addon2"><i class="fa fa-user"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- <div class="col-md-4">&nbsp;</div> -->
-                                </div>
-                            </div><!-- column -->
-                        </div><!-- row -->
-            
-                        <!-- Referral end -->
-                        <!-- High school Education starts -->
-
-            <div class="form-row">
-                    <div class="col-md-12">
-                        <div class="form-header-group ">
-                            <div class="header-text httal htvam">
-                                <h4 id="header_100" class="form-header" data-component="header">
-                                    High School Education:
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="form-row">
-                    <div class="col-md-4 form-label">
-                        Name of High School
-                    </div>
-                    <div class="col-md-8">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <!-- <label for="nameOfSchool" class="lblCls">First Name</label> -->
-                                <!-- <div class="input-group mb-3 input-group-sm"> -->
-                                <input type="text" id="nameOfSchool" class="form-control " size="10" value="" />
-                                <!-- aria-describedby="basic-addon2" /> 
-                                        <div class="input-group-append">
-                                            <span class="input-group-text" id="basic-addon2"><i
-                                                    class="fa fa-user"></i></span>
-                                        </div> -->
-                            </div>
-                            <div class="form-group col-md-6">&nbsp;</div>
-    
-                        </div>
-                    </div>
-                    <!--Name of school column -->
-                </div><!-- Name of school row -->
-    
-                <div class="form-row">
-                    <div class="col-md-4 form-label">
-                        High School City/State
-                    </div>
-                    <div class="col-md-8">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <!-- <label for="nameOfSchool" class="lblCls">First Name</label> -->
-                                <!-- <div class="input-group mb-3 input-group-sm"> -->
-                                <input type="text" id="highSchoolCity" class="form-control " size="10" value="" />
-                                <!-- aria-describedby="basic-addon2" /> 
-                                            <div class="input-group-append">
-                                                <span class="input-group-text" id="basic-addon2"><i
-                                                        class="fa fa-user"></i></span>
-                                            </div> -->
-                                <!-- </div> -->
-                            </div>
-                            <div class="form-group col-md-6">&nbsp;</div>
-                        </div>
-                    </div>
-                    <!--High school column -->
-                </div><!-- High school row -->
-    
-    
-                <div class="form-row">
-                    <div class="col-md-4 form-label">
-                        Did you Graduate?
-                    </div>
-                    <div class="col-md-8">
-                        <div class="form-group col-md-8">
-                            <!-- <label for="male" class="lblCls">Gender</label> -->
-                            <div class="input-group ">
-                                <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" id="graduate_yes" name="graduate" class="custom-control-input">
-                                    <label class="custom-control-label" for="graduate_yes">Yes</label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" id="graduate_no" name="graduate" class="custom-control-input">
-                                    <label class="custom-control-label" for="graduate_no">No</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- High school Education ends -->
-    
-                <!-- College education starts -->
-                <div class="form-row">
-                    <div class="col-md-12 ">
-                        <div class="form-header-group ">
-                            <div class="header-text httal htvam">
-                                <h4 id="header_100" class="form-header" data-component="header">
-                                    College Education
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="form-row">
-                    <div class="col-md-4 form-label">
-                        Name of College
-                    </div>
-                    <div class="col-md-8">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" id="nameOfCollege" class="form-control " size="10" value="" />
-                            </div>
-                            <div class="form-group col-md-6">&nbsp;</div>
-    
-                        </div>
-                    </div>
-                    <!--Name of college column -->
-                </div><!-- Name of college row -->
-    
-                <div class="form-row">
-                    <div class="col-md-4 form-label">
-                        College City/State
-                    </div>
-                    <div class="col-md-8">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" id="collegeCity" class="form-control " size="10" value="" />
-                            </div>
-                            <div class="form-group col-md-6">&nbsp;</div>
-                        </div>
-                    </div>
-                    <!--College city column -->
-                </div><!-- College city row -->
-                <div class="form-row">
-                    <div class="col-md-4 form-label">
-                        Degree Obtained
-                    </div>
-                    <div class="col-md-8">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" id="degreeObtained" class="form-control " size="10" value="" />
-                            </div>
-                            <div class="form-group col-md-6">&nbsp;</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- College education end -->
-    
-                    <!-- step1 end-->
-                </div>
-                <div id="step-2" class="">
-                    <h3 class="border-bottom border-gray pb-2">Employment History</h3>
-                    <!-- step 2 starts -->
+<!-- widget content -->
+<div class="widget-body">
+		
+	<div class="row">
+			<div class="col-sm-12">
+		<form id="wizard-1" novalidate="novalidate">
+			<div id="bootstrap-wizard-1" class="col-sm-12">
+				<div class="form-bootstrapWizard">
+					<ul class="bootstrapWizard form-wizard">
+						<li class="active" data-target="#step1">
+							<a href="#tab1" data-toggle="tab"> <span class="step">1</span> <span class="title">PCA
+									Onboarding Application</span> </a>
+						</li>
+						<li data-target="#step2">
+							<a href="#tab2" data-toggle="tab"> <span class="step">2</span> <span
+									class="title">Employment History</span> </a>
+						</li>
+						<li data-target="#step3">
+							<a href="#tab3" data-toggle="tab"> <span class="step">3</span> <span
+									class="title">Professional References</span> </a>
+						</li>
+						<li data-target="#step4">
+							<a href="#tab4" data-toggle="tab"> <span class="step">4</span> <span class="title">Save
+									Form</span> </a>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+				<div class="tab-content">
+					<div class="tab-pane active" id="tab1">
+						<br>
+						<h3><strong>Step 1 </strong> - PCA Onboarding Application</h3>
+						<!-- Step 1 starts -->
+						<div class="container">
+								<div class="form-row row-bottom-margin">
+									<div class="col-md-4  labl-v-align">
+										Full Name
+									</div>
+									<div class="col-md-8">
+										<div class="form-row">
+											<div class="form-group col-md-4">
+												<label for="fName" class="lblCls">First Name</label>
+												<div class="input-group mb-3 input-group-sm">
+													<input type="text" id="fName" class="form-control " size="10" value=""
+														aria-describedby="basic-addon2" />
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2"><i
+																class="fa fa-user"></i></span>
+													</div>
+												</div>
+											</div>
+											<div class="form-group col-md-4">
+												<label for="mName" class="lblCls">Middle Name</label>
+												<div class="input-group mb-3  input-group-sm">
+													<input type="text" id="mName" class="form-control " size="10" value=""
+														aria-describedby="basic-addon2" />
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2"><i
+																class="fa fa-user"></i></span>
+													</div>
+												</div>
+											</div>
+											<div class="form-group col-md-4">
+												<label for="lName" class="lblCls">Last Name</label>
+												<div class="input-group mb-3  input-group-sm">
+													<input type="text" id="lName" class="form-control " size="10" value=""
+														aria-describedby="basic-addon2" />
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2"><i
+																class="fa fa-user"></i></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div><!-- column -->
+								</div><!-- row -->
+				
+								<div class="form-row row-bottom-margin">
+									<div class="col-md-4 ">
+										&nbsp;
+									</div>
+									<div class="col-md-8">
+										<div class="form-row">
+											<div class="form-group col-md-4">
+												<label for="dob" class="lblCls">Date of Birth</label>
+												<div class="input-group date mb-3  input-group-sm" id='datetimepicker1'>
+													<input type="text" class="form-control form-control-sm" id="dob" value="12-02-2012"
+														aria-describedby="basic-addon4">
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon4"><i
+																class="fa fa-calendar"></i></span>
+													</div>
+												</div>
+											</div>
+											<div class="form-group col-md-8">
+												<label for="male" class="lblCls">Gender</label>
+												<div class="input-group ">
+													<div class="custom-control custom-radio custom-control-inline">
+														<input type="radio" id="male" name="male" class="custom-control-input">
+														<label class="custom-control-label" for="male">Male</label>
+													</div>
+													<div class="custom-control custom-radio custom-control-inline">
+														<input type="radio" id="female" name="male" class="custom-control-input">
+														<label class="custom-control-label" for="female">Female</label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--dob column -->
+								</div><!-- dob row -->
+				
+								<div class="form-row">
+									<div class="col-md-4   labl-v-align">
+										Address
+									</div>
+									<div class="col-md-8">
+										<div class="form-row">
+											<div class="form-group col-md-8">
+												<label for="streetAddr" class="lblCls">Street Address</label>
+												<input type="text" id="streetAddr" class="form-control  form-control-sm" value="" />
+												<!-- form-control-sm -->
+											</div>
+				
+											<div class="form-group col-md-4">&nbsp;</div>
+										</div>
+									</div><!-- address column -->
+								</div><!-- address row -->
+				
+								<div class="form-row">
+									<div class="col-md-4 ">
+										&nbsp;
+									</div>
+									<div class="col-md-8">
+										<div class="form-row">
+											<div class="form-group col-md-8">
+												<label for="fName" class="lblCls">Street Address Line 2</label>
+												<input type="text" id="fName" class="form-control form-control-sm" size="10" value="" />
+												<!-- form-control-sm -->
+											</div>
+				
+											<div class="form-group col-md-4">&nbsp;</div>
+										</div>
+									</div>
+									<!--street address2 column -->
+								</div><!-- street address2 row -->
+				
+								<div class="form-row">
+									<div class="col-md-4 ">
+										&nbsp;
+									</div>
+									<div class="col-md-8">
+										<div class="form-row">
+											<div class="form-group col-md-4">
+												<label for="city" class="lblCls">City</label>
+												<input type="text" id="city" class="form-control form-control-sm" size="10" value="" />
+												<!-- form-control-sm -->
+											</div>
+											<div class="form-group col-md-4">
+												<label for="state" class="lblCls">State</label>
+												<!-- <input type="text" id="state" class="form-control" size="10" value="" /> -->
+												<div class="dropdown">
+													<button class="btn btn-secondary dropdown-toggle btn-sm" type="button"
+														id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+														aria-expanded="false">
+														Dropdown
+													</button>
+													<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+														<button class="dropdown-item" type="button" value="AL">Alabama</button>
+														<button class="dropdown-item" type="button" value="AK">Alaska</button>
+														<button class="dropdown-item" type="button" value="AZ">Arizona</button>
+														<button class="dropdown-item" type="button" value="AR">Arkansas</button>
+														<button class="dropdown-item" type="button" value="CA">California</button>
+														<button class="dropdown-item" type="button" value="CO">Colorado</button>
+														<button class="dropdown-item" type="button" value="CT">Connecticut</button>
+														<button class="dropdown-item" type="button" value="DE">Delaware</button>
+														<button class="dropdown-item" type="button" value="DC">District Of Columbia</button>
+														<button class="dropdown-item" type="button" value="FL">Florida</button>
+														<button class="dropdown-item" type="button" value="GA">Georgia</button>
+														<button class="dropdown-item" type="button" value="HI">Hawaii</button>
+														<button class="dropdown-item" type="button" value="ID">Idaho</button>
+														<button class="dropdown-item" type="button" value="IL">Illinois</button>
+														<button class="dropdown-item" type="button" value="IN">Indiana</button>
+														<button class="dropdown-item" type="button" value="IA">Iowa</button>
+														<button class="dropdown-item" type="button" value="KS">Kansas</button>
+														<button class="dropdown-item" type="button" value="KY">Kentucky</button>
+														<button class="dropdown-item" type="button" value="LA">Louisiana</button>
+														<button class="dropdown-item" type="button" value="ME">Maine</button>
+														<button class="dropdown-item" type="button" value="MD">Maryland</button>
+														<button class="dropdown-item" type="button" value="MA">Massachusetts</button>
+														<button class="dropdown-item" type="button" value="MI">Michigan</button>
+														<button class="dropdown-item" type="button" value="MN">Minnesota</button>
+														<button class="dropdown-item" type="button" value="MS">Mississippi</button>
+														<button class="dropdown-item" type="button" value="MO">Missouri</button>
+														<button class="dropdown-item" type="button" value="MT">Montana</button>
+														<button class="dropdown-item" type="button" value="NE">Nebraska</button>
+														<button class="dropdown-item" type="button" value="NV">Nevada</button>
+														<button class="dropdown-item" type="button" value="NH">New Hampshire</button>
+														<button class="dropdown-item" type="button" value="NJ">New Jersey</button>
+														<button class="dropdown-item" type="button" value="NM">New Mexico</button>
+														<button class="dropdown-item" type="button" value="NY">New York</button>
+														<button class="dropdown-item" type="button" value="NC">North Carolina</button>
+														<button class="dropdown-item" type="button" value="ND">North Dakota</button>
+														<button class="dropdown-item" type="button" value="OH">Ohio</button>
+														<button class="dropdown-item" type="button" value="OK">Oklahoma</button>
+														<button class="dropdown-item" type="button" value="OR">Oregon</button>
+														<button class="dropdown-item" type="button" value="PA">Pennsylvania</button>
+														<button class="dropdown-item" type="button" value="RI">Rhode Island</button>
+														<button class="dropdown-item" type="button" value="SC">South Carolina</button>
+														<button class="dropdown-item" type="button" value="SD">South Dakota</button>
+														<button class="dropdown-item" type="button" value="TN">Tennessee</button>
+														<button class="dropdown-item" type="button" value="TX">Texas</button>
+														<button class="dropdown-item" type="button" value="UT">Utah</button>
+														<button class="dropdown-item" type="button" value="VT">Vermont</button>
+														<button class="dropdown-item" type="button" value="VA">Virginia</button>
+														<button class="dropdown-item" type="button" value="WA">Washington</button>
+														<button class="dropdown-item" type="button" value="WV">West Virginia</button>
+														<button class="dropdown-item" type="button" value="WI">Wisconsin</button>
+														<button class="dropdown-item" type="button" value="WY">Wyoming</button>
+													</div>
+												</div>
+												<!-- form-control-sm -->
+											</div>
+											<div class="form-group col-md-4">
+												<label for="zipCode" class="lblCls">Zip Code</label>
+												<input type="text" id="zipCode" class="form-control form-control-sm" size="10"
+													value="" />
+												<!-- form-control-sm -->
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--city column -->
+							</div><!-- city row -->
+				
+							<div class="form-row">
+								<div class="col-md-4 ">
+									&nbsp;
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-4">
+											<label for="country" class="lblCls">Country</label>
+											<!-- <input type="text" id="country" class="form-control" size="10" value="" /> -->
+											<div class="dropdown">
+												<button class="btn btn-secondary dropdown-toggle btn-sm" type="button"
+													id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+													aria-expanded="false">
+													Dropdown
+												</button>
+												<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+													<button class="dropdown-item" type="button" value="Aitkin">Aitkin</button>
+						  <button class="dropdown-item" type="button" value="Anoka">Anoka</button>
+						  <button class="dropdown-item" type="button" value="Becker">Becker</button>
+						  <button class="dropdown-item" type="button" value="Beltrami">Beltrami</button>
+						  <button class="dropdown-item" type="button" value="Benton">Benton</button>
+						  <button class="dropdown-item" type="button" value="Big Stone">Big Stone</button>
+						  <button class="dropdown-item" type="button" value="Blue Earth">Blue Earth</button>
+						  <button class="dropdown-item" type="button" value="Brown">Brown</button>
+						  <button class="dropdown-item" type="button" value="Carlton">Carlton</button>
+						  <button class="dropdown-item" type="button" value="Carver">Carver</button>
+						  <button class="dropdown-item" type="button" value="Cass">Cass</button>
+						  <button class="dropdown-item" type="button" value="Chippewa">Chippewa</button>
+						  <button class="dropdown-item" type="button" value="Chisago">Chisago</button>
+						  <button class="dropdown-item" type="button" value="Clay">Clay</button>
+						  <button class="dropdown-item" type="button" value="Clearwater">Clearwater</button>
+						  <button class="dropdown-item" type="button" value="Cook">Cook</button>
+						  <button class="dropdown-item" type="button" value="Cottonwood">Cottonwood</button>
+						  <button class="dropdown-item" type="button" value="Crow Wing">Crow Wing</button>
+						  <button class="dropdown-item" type="button" value="Dakota">Dakota</button>
+						  <button class="dropdown-item" type="button" value="Dodge">Dodge</button>
+						  <button class="dropdown-item" type="button" value="Douglas">Douglas</button>
+						  <button class="dropdown-item" type="button" value="Faribault">Faribault</button>
+						  <button class="dropdown-item" type="button" value="Fillmore">Fillmore</button>
+						  <button class="dropdown-item" type="button" value="Freeborn">Freeborn</button>
+						  <button class="dropdown-item" type="button" value="Goodhue">Goodhue</button>
+						  <button class="dropdown-item" type="button" value="Grant">Grant</button>
+						  <button class="dropdown-item" type="button" value="Hennepin">Hennepin</button>
+						  <button class="dropdown-item" type="button" value="Houston">Houston</button>
+						  <button class="dropdown-item" type="button" value="Hubbard">Hubbard</button>
+						  <button class="dropdown-item" type="button" value="Isanti">Isanti</button>
+						  <button class="dropdown-item" type="button" value="Itasca">Itasca</button>
+						  <button class="dropdown-item" type="button" value="Jackson">Jackson</button>
+						  <button class="dropdown-item" type="button" value="Kanabec">Kanabec</button>
+						  <button class="dropdown-item" type="button" value="Kandiyohi">Kandiyohi</button>
+						  <button class="dropdown-item" type="button" value="Kittson">Kittson</button>
+						  <button class="dropdown-item" type="button" value="Koochiching">Koochiching</button>
+						  <button class="dropdown-item" type="button" value="Lac Qui Parle">Lac Qui Parle</button>
+						  <button class="dropdown-item" type="button" value="Lake">Lake</button>
+						  <button class="dropdown-item" type="button" value="Lake Of The Wood">Lake Of The Wood</button>
+						  <button class="dropdown-item" type="button" value="Le Sueur">Le Sueur</button>
+						  <button class="dropdown-item" type="button" value="Lincoln">Lincoln</button>
+						  <button class="dropdown-item" type="button" value="Lyon">Lyon</button>
+						  <button class="dropdown-item" type="button" value="Mahnomen">Mahnomen</button>
+						  <button class="dropdown-item" type="button" value="Marshall">Marshall</button>
+						  <button class="dropdown-item" type="button" value="Martin">Martin</button>
+						  <button class="dropdown-item" type="button" value="McLeod">McLeod</button>
+						  <button class="dropdown-item" type="button" value="Meeker">Meeker</button>
+						  <button class="dropdown-item" type="button" value="Mille Lacs">Mille Lacs</button>
+						  <button class="dropdown-item" type="button" value="Morrison">Morrison</button>
+						  <button class="dropdown-item" type="button" value="Mower">Mower</button>
+						  <button class="dropdown-item" type="button" value="Murray">Murray</button>
+						  <button class="dropdown-item" type="button" value="Nicollet">Nicollet</button>
+						  <button class="dropdown-item" type="button" value="Nobles">Nobles</button>
+						  <button class="dropdown-item" type="button" value="Norman">Norman</button>
+						  <button class="dropdown-item" type="button" value="Olmsted">Olmsted</button>
+						  <button class="dropdown-item" type="button" value="Otter Tail">Otter Tail</button>
+						  <button class="dropdown-item" type="button" value="Pennington">Pennington</button>
+						  <button class="dropdown-item" type="button" value="Pine">Pine</button>
+						  <button class="dropdown-item" type="button" value="Pipestone">Pipestone</button>
+						  <button class="dropdown-item" type="button" value="Polk">Polk</button>
+						  <button class="dropdown-item" type="button" value="Pope">Pope</button>
+						  <button class="dropdown-item" type="button" value="Ramsey">Ramsey</button>
+						  <button class="dropdown-item" type="button" value="Red Lake">Red Lake</button>
+						  <button class="dropdown-item" type="button" value="Redwood">Redwood</button>
+						  <button class="dropdown-item" type="button" value="Renville">Renville</button>
+						  <button class="dropdown-item" type="button" value="Rice">Rice</button>
+						  <button class="dropdown-item" type="button" value="Rock">Rock</button>
+						  <button class="dropdown-item" type="button" value="Roseau">Roseau</button>
+						  <button class="dropdown-item" type="button" value="St. Louis">St. Louis</button>
+						  <button class="dropdown-item" type="button" value="Scott">Scott</button>
+						  <button class="dropdown-item" type="button" value="Sherburne">Sherburne</button>
+						  <button class="dropdown-item" type="button" value="Sibley">Sibley</button>
+						  <button class="dropdown-item" type="button" value="Stearns">Stearns</button>
+						  <button class="dropdown-item" type="button" value="Steele">Steele</button>
+						  <button class="dropdown-item" type="button" value="Stevens">Stevens</button>
+						  <button class="dropdown-item" type="button" value="Swift">Swift</button>
+						  <button class="dropdown-item" type="button" value="Todd">Todd</button>
+						  <button class="dropdown-item" type="button" value="Traverse">Traverse</button>
+						  <button class="dropdown-item" type="button" value="Wabasha">Wabasha</button>
+						  <button class="dropdown-item" type="button" value="Wadena">Wadena</button>
+						  <button class="dropdown-item" type="button" value="Waseca">Waseca</button>
+						  <button class="dropdown-item" type="button" value="Washington">Washington</button>
+						  <button class="dropdown-item" type="button" value="Watonwan">Watonwan</button>
+						  <button class="dropdown-item" type="button" value="Wilkin">Wilkin</button>
+						  <button class="dropdown-item" type="button" value="Winona">Winona</button>
+						  <button class="dropdown-item" type="button" value="Wright">Wright</button>
+						  <button class="dropdown-item" type="button" value="Yellow Medicine">Yellow Medicine</button>
+												</div>
+											</div>
+											<!-- form-control-sm -->
+										</div>
+										<div class="form-group col-md-8">
+											&nbsp;
+										</div>
+									</div>
+								</div>
+								<!--country column -->
+							</div><!-- country row -->
+				
+							<div class="form-row">
+								<div class="col-md-4    labl-v-align">
+									Contact Info
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<label for="phoneNo" class="lblCls">Phone Number</label>
+											<div class="input-group mb-3">
+												<input type="text" id="phone" class="form-control form-control-sm" size="10" value=""
+													placeholder="(____)___-___" aria-describedby="basic-addon2" />
+												<!-- form-control-sm -->
+												<div class="input-group-append">
+													<span class="input-group-text" id="basic-addon2"><i class="fa fa-user"></i></span>
+												</div>
+											</div>
+										</div>
+										<div class="form-group col-md-6">
+											<label for="email" class="lblCls">Email</label>
+											<div class="input-group mb-3 input-group-sm">
+												<input type="email" id="email" class="form-control " value=""
+													aria-describedby="basic-addon-email6" /> <!-- form-control-sm -->
+												<div class="input-group-append">
+													<span class="input-group-text" id="basic-addon-email6"><i
+															class="fa fa-envelope"></i></span>
+												</div>
+											</div>
+										</div>
+										<!-- <div class="form-group col-md-4">&nbsp;</div> -->
+									</div>
+								</div>
+								<!--cotact info column -->
+							</div>
+							<!--contact info row -->
+				
+							<div class="form-row">
+								<div class="col-md-4 ">
+									&nbsp;
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-4">
+											<label for="ssn" class="lblCls">SSN</label>
+											
+											<div class="input-group mb-3 input-group-sm">
+												<input type="text" id="ssn" class="form-control form-control-sm" size="10" value="" aria-describedby="basic-addon6"/>
+												<div class="input-group-append">
+													<span class="input-group-text" id="basic-addon7">#</span>
+												</div>
+											</div>
+											<!-- form-control-sm -->
+										</div>
+										<div class="form-group col-md-8">
+											<label for="male" class="lblCls">US Citizen</label>
+											<div class="input-group input-group-sm">
+												<div class="custom-control custom-radio custom-control-inline">
+													<input type="radio" id="yes" name="yes" class="custom-control-input">
+													<label class="custom-control-label" for="yes">Yes</label>
+												</div>
+												<div class="custom-control custom-radio custom-control-inline">
+													<input type="radio" id="no" name="yes" class="custom-control-input">
+													<label class="custom-control-label" for="no">No</label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--SSN column -->
+							</div><!-- SSN row -->
+				
+							<div class="form-row">
+								<div class="col-md-4    labl-v-align">
+									PCA Info
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-4">
+											<label for="fName" class="lblCls">PCA Certification No.</label>
+											<div class="input-group mb-3 input-group-sm">
+													<input type="text" id="fName" class="form-control form-control-sm" size="10" value="" aria-describedby="basic-addon8"/>
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon8">#</span>
+													</div>
+												</div>
+											<!-- form-control-sm -->
+				
+										</div>
+										<div class="form-group col-md-4">
+											<label for="mName" class="lblCls">Passed Date</label>
+											<input type="text" id="mName" class="form-control form-control-sm" size="10" value="" />
+											<!-- form-control-sm -->
+				
+										</div>
+										<div class="form-group col-md-4">
+											<label for="lName" class="lblCls">BGS Number</label>
+											<input type="text" id="lName" class="form-control form-control-sm" size="10" value="" />
+											<!-- form-control-sm -->
+				
+										</div>
+									</div>
+								</div>
+								<!--PCA info column -->
+							</div>
+							<!--PCA Info row -->
+				
+							<div class="form-row">
+								<div class="col-md-4    labl-v-align">
+									Emergency Contact
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-4">
+											<label for="ec_fName" class="lblCls">First Name</label>
+											<div class="input-group mb-3 input-group-sm">
+												<input type="text" id="ec_fName" class="form-control " size="10" value=""
+													aria-describedby="basic-addon2" /> <!-- form-control-sm -->
+												<div class="input-group-append">
+													<span class="input-group-text" id="basic-addon2"><i class="fa fa-user"></i></span>
+												</div>
+											</div>
+										</div>
+										<div class="form-group col-md-4">
+											<label for="ec_lName" class="lblCls">Last Name</label>
+											<div class="input-group mb-3 input-group-sm">
+												<input type="text" id="ec_lName" class="form-control " size="10" value=""
+													aria-describedby="basic-addon2" /> <!-- form-control-sm -->
+												<div class="input-group-append">
+													<span class="input-group-text" id="basic-addon2"><i class="fa fa-user"></i></span>
+												</div>
+											</div>
+										</div>
+										<div class="form-group col-md-4">
+											<label for="ec_phone" class="lblCls">Phone Number</label>
+											<div class="input-group mb-3 input-group-sm">
+												<input type="phone" id="ec_phone" class="form-control " size="10" value=""
+													aria-describedby="basic-addon2" /> <!-- form-control-sm -->
+												<div class="input-group-append">
+													<span class="input-group-text" id="basic-addon2"><i class="fa fa-user"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--Emergency contact column -->
+							</div>
+							<!--Emergency contact row -->
+				
+							<div class="form-row">
+								<div class="col-md-4 form-label">
+									Position Applying For:
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<!-- <label for="position_applying">&nbsp;</label> -->
+											<!-- <div class="input-group mb-3"> -->
+											<input type="text" id="position_applying" class="form-control form-control-sm" size="10"
+												value="" /> <!--  -->
+											<!-- <div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2"><i
+																class="fa fa-user"></i></span>
+													</div>
+												</div> -->
+										</div>
+										<div class="form-group col-md-6">
+											&nbsp;
+										</div>
+				
+									</div>
+								</div>
+								<!--Position applying column -->
+							</div>
+							<!--Position applying row -->
+				
+				
+							<div class="form-row">
+								<div class="col-md-4 form-label">
+									Were you employed at this agency?
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-4">
+											<div class="input-group ">
+												<div class="custom-control custom-radio custom-control-inline">
+													<input type="radio" id="employed_yes" name="employed" class="custom-control-input">
+													<label class="custom-control-label" for="employed_yes">Yes</label>
+												</div>
+												<div class="custom-control custom-radio custom-control-inline">
+													<input type="radio" id="employed_no" name="employed" class="custom-control-input">
+													<label class="custom-control-label" for="employed_no">No</label>
+												</div>
+											</div>
+										</div>
+										<div class="form-group col-md-4">
+											&nbsp;
+										</div>
+				
+									</div>
+								</div>
+								<!--Were you employed at this agency?column -->
+							</div>
+							<!--Were you employed at this agency?row -->
+				
+				
+							<div class="form-row">
+								<div class="col-md-4 form-label">
+									If yes, last date worked
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<!-- <label for="position_applying">&nbsp;</label> -->
+											<!-- <div class="input-group mb-3"> -->
+											<input type="number" id="lastDateWorked" class="form-control form-control-sm" size="10"
+												value="" /> <!-- form-control-sm -->
+											<!-- <div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2"><i
+																class="fa fa-user"></i></span>
+													</div>
+												</div> -->
+										</div>
+										<div class="form-group col-md-6">
+											&nbsp;
+										</div>
+				
+									</div>
+								</div>
+								<!--Position applying column -->
+							</div>
+							<!--Position applying row -->
+							<!-- Referral starts -->
+							<div class="form-row">
+								<div class="col-md-12 ">
+									<div class="form-header-group ">
+										<div class="header-text httal htvam">
+											<h4 id="header_100" class="form-header" data-component="header">
+												Referral
+											</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+				
+				
+							<div class="form-row">
+								<div class="col-md-4    labl-v-align">
+									Referred by
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<label for="fName" class="lblCls">First Name</label>
+											<div class="input-group mb-3 input-group-sm">
+												<input type="text" id="fName" class="form-control " size="10" value=""
+													aria-describedby="basic-addon2" />
+												<div class="input-group-append">
+													<span class="input-group-text" id="basic-addon2"><i class="fa fa-user"></i></span>
+												</div>
+											</div>
+										</div>
+				
+										<div class="form-group col-md-6">
+											<label for="lName" class="lblCls">Last Name</label>
+											<div class="input-group mb-3  input-group-sm">
+												<input type="text" id="lName" class="form-control " size="10" value=""
+													aria-describedby="basic-addon2" />
+												<div class="input-group-append">
+													<span class="input-group-text" id="basic-addon2"><i class="fa fa-user"></i></span>
+												</div>
+											</div>
+										</div>
+										<!-- <div class="col-md-4">&nbsp;</div> -->
+									</div>
+								</div><!-- column -->
+							</div><!-- row -->
+				
+							<!-- Referral end -->
+							<!-- High school Education starts -->
+	
+				<div class="form-row">
+						<div class="col-md-12">
+							<div class="form-header-group ">
+								<div class="header-text httal htvam">
+									<h4 id="header_100" class="form-header" data-component="header">
+										High School Education:
+									</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+		
+					<div class="form-row">
+						<div class="col-md-4 form-label">
+							Name of High School
+						</div>
+						<div class="col-md-8">
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<!-- <label for="nameOfSchool" class="lblCls">First Name</label> -->
+									<!-- <div class="input-group mb-3 input-group-sm"> -->
+									<input type="text" id="nameOfSchool" class="form-control " size="10" value="" />
+									<!-- aria-describedby="basic-addon2" /> 
+											<div class="input-group-append">
+												<span class="input-group-text" id="basic-addon2"><i
+														class="fa fa-user"></i></span>
+											</div> -->
+								</div>
+								<div class="form-group col-md-6">&nbsp;</div>
+		
+							</div>
+						</div>
+						<!--Name of school column -->
+					</div><!-- Name of school row -->
+		
+					<div class="form-row">
+						<div class="col-md-4 form-label">
+							High School City/State
+						</div>
+						<div class="col-md-8">
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<!-- <label for="nameOfSchool" class="lblCls">First Name</label> -->
+									<!-- <div class="input-group mb-3 input-group-sm"> -->
+									<input type="text" id="highSchoolCity" class="form-control " size="10" value="" />
+									<!-- aria-describedby="basic-addon2" /> 
+												<div class="input-group-append">
+													<span class="input-group-text" id="basic-addon2"><i
+															class="fa fa-user"></i></span>
+												</div> -->
+									<!-- </div> -->
+								</div>
+								<div class="form-group col-md-6">&nbsp;</div>
+							</div>
+						</div>
+						<!--High school column -->
+					</div><!-- High school row -->
+		
+		
+					<div class="form-row">
+						<div class="col-md-4 form-label">
+							Did you Graduate?
+						</div>
+						<div class="col-md-8">
+							<div class="form-group col-md-8">
+								<!-- <label for="male" class="lblCls">Gender</label> -->
+								<div class="input-group ">
+									<div class="custom-control custom-radio custom-control-inline">
+										<input type="radio" id="graduate_yes" name="graduate" class="custom-control-input">
+										<label class="custom-control-label" for="graduate_yes">Yes</label>
+									</div>
+									<div class="custom-control custom-radio custom-control-inline">
+										<input type="radio" id="graduate_no" name="graduate" class="custom-control-input">
+										<label class="custom-control-label" for="graduate_no">No</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- High school Education ends -->
+		
+					<!-- College education starts -->
+					<div class="form-row">
+						<div class="col-md-12 ">
+							<div class="form-header-group ">
+								<div class="header-text httal htvam">
+									<h4 id="header_100" class="form-header" data-component="header">
+										College Education
+									</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+		
+					<div class="form-row">
+						<div class="col-md-4 form-label">
+							Name of College
+						</div>
+						<div class="col-md-8">
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<input type="text" id="nameOfCollege" class="form-control " size="10" value="" />
+								</div>
+								<div class="form-group col-md-6">&nbsp;</div>
+		
+							</div>
+						</div>
+						<!--Name of college column -->
+					</div><!-- Name of college row -->
+		
+					<div class="form-row">
+						<div class="col-md-4 form-label">
+							College City/State
+						</div>
+						<div class="col-md-8">
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<input type="text" id="collegeCity" class="form-control " size="10" value="" />
+								</div>
+								<div class="form-group col-md-6">&nbsp;</div>
+							</div>
+						</div>
+						<!--College city column -->
+					</div><!-- College city row -->
+					<div class="form-row">
+						<div class="col-md-4 form-label">
+							Degree Obtained
+						</div>
+						<div class="col-md-8">
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<input type="text" id="degreeObtained" class="form-control " size="10" value="" />
+								</div>
+								<div class="form-group col-md-6">&nbsp;</div>
+							</div>
+						</div>
+					</div>
+					<!-- College education end -->
+		
+						<!-- step1 end-->
+						<!-- Step 1 ends -->
+					</div>
+					<div class="tab-pane" id="tab2">
+						<br>
+						<h3><strong>Step 2</strong> - Billing Information</h3>
+						  <!-- step 2 starts -->
                          <!--Recent Employment History starts -->
-                <div class="form-row">
-                    <div class="col-md-4  form-label">
-                        Most Recent Employer
-                    </div>
-                    <div class="col-md-8">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" id="recentEmployer" class="form-control " size="10" value="" />
-                            </div>
-                            <div class="form-group col-md-6">&nbsp;</div>
+						 <div class="form-row">
+							<div class="col-md-4  form-label">
+								Most Recent Employer
+							</div>
+							<div class="col-md-8">
+								<div class="form-row">
+									<div class="form-group col-md-6">
+										<input type="text" id="recentEmployer" class="form-control " size="10" value="" />
+									</div>
+									<div class="form-group col-md-6">&nbsp;</div>
+			
+								</div>
+							</div>
+							<!--Name of college column -->
+						</div><!-- Name of college row -->
+			
+						<div class="form-row">
+							<div class="col-md-4 form-label">
+								Employer Phone  Number
+							</div>
+							<div class="col-md-8">
+								<div class="form-row">
+										<div class="form-group col-md-2">
+												<input type="text" id="employerPhone" class="form-control " size="10" value="" />
+											</div>
+									<div class="form-group col-md-4">
+										<input type="text" id="employerPhone" class="form-control " size="10" value="" />
+									</div>
+									<div class="form-group col-md-6">&nbsp;</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col-md-4 form-label">
+								Dates Worked
+							</div>
+							<div class="col-md-8">
+								<div class="form-row">
+									<div class="form-group col-md-6">
+										<input type="text" id="datesWorked" class="form-control " size="10" value="" />
+									</div>
+									<div class="form-group col-md-6">&nbsp;</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-row">
+								<div class="col-md-4 form-label">
+								  Position or Title
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<input type="text" id="positionOrTitle" class="form-control " size="10" value="" />
+										</div>
+										<div class="form-group col-md-6">&nbsp;</div>
+									</div>
+								</div>
+							</div>
+		
+							<div class="form-row">
+									<div class="col-md-4 form-label">
+									  Supervisor's Name
+									</div>
+									<div class="col-md-8">
+										<div class="form-row">
+											<div class="form-group col-md-6">
+												<input type="text" id="supervisorsNme" class="form-control " size="10" value="" />
+											</div>
+											<div class="form-group col-md-6">&nbsp;</div>
+										</div>
+									</div>
+								</div>
+								
+							<div class="form-row">
+									<div class="col-md-4 form-label">
+									  Reason for  leaving
+									</div>
+									<div class="col-md-8">
+										<div class="form-row">
+											<div class="form-group col-md-6">
+												<input type="text" id="reasonForLeaving" class="form-control " size="10" value="" />
+											</div>
+											<div class="form-group col-md-6">&nbsp;</div>
+										</div>
+									</div>
+								</div>
+								
+					<!--Recent Employment History ends -->
+		
+					<!--Employment History starts -->
+					<div class="form-row">
+							<div class="col-md-12 ">
+								<div class="form-header-group ">
+									<div class="header-text httal htvam">
+										<h4 id="header_100" class="form-header" data-component="header">
+											Employment History
+										</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+			
+						<div class="form-row">
+							<div class="col-md-4 form-label">
+								 Employer
+							</div>
+							<div class="col-md-8">
+								<div class="form-row">
+									<div class="form-group col-md-6">
+										<input type="text" id="employer" class="form-control " size="10" value="" />
+									</div>
+									<div class="form-group col-md-6">&nbsp;</div>
+			
+								</div>
+							</div>
+							<!--Name of college column -->
+						</div><!-- Name of college row -->
+			
+						<div class="form-row">
+							<div class="col-md-4 form-label">
+								Employer Phone  Number
+							</div>
+							<div class="col-md-8">
+								<div class="form-row">
+										<div class="form-group col-md-2">
+												<input type="text" id="employerPhone" class="form-control " size="10" value="" />
+											</div>
+									<div class="form-group col-md-4">
+										<input type="text" id="employerPhone" class="form-control " size="10" value="" />
+									</div>
+									<div class="form-group col-md-6">&nbsp;</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col-md-4 form-label">
+								Dates Worked
+							</div>
+							<div class="col-md-8">
+								<div class="form-row">
+									<div class="form-group col-md-6">
+										<input type="text" id="datesWorked" class="form-control " size="10" value="" />
+									</div>
+									<div class="form-group col-md-6">&nbsp;</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-row">
+								<div class="col-md-4  form-label">
+								  Position or Title
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<input type="text" id="positionOrTitle" class="form-control " size="10" value="" />
+										</div>
+										<div class="form-group col-md-6">&nbsp;</div>
+									</div>
+								</div>
+							</div>
+		
+							<div class="form-row">
+									<div class="col-md-4  form-label">
+									  Supervisor's Name
+									</div>
+									<div class="col-md-8">
+										<div class="form-row">
+											<div class="form-group col-md-6">
+												<input type="text" id="supervisorsNme" class="form-control " size="10" value="" />
+											</div>
+											<div class="form-group col-md-6">&nbsp;</div>
+										</div>
+									</div>
+								</div>
+								
+							<div class="form-row">
+									<div class="col-md-4  form-label">
+									  Reason for  leaving
+									</div>
+									<div class="col-md-8">
+										<div class="form-row">
+											<div class="form-group col-md-6">
+												<input type="text" id="reasonForLeaving" class="form-control " size="10" value="" />
+											</div>
+											<div class="form-group col-md-6">&nbsp;</div>
+										</div>
+									</div>
+								</div>
+					<!-- Employment History ends -->
+		<!--Availability starts  -->
+		
+		<div class="form-row">
+				<div class="col-md-12 ">
+					<div class="form-header-group ">
+						<div class="header-text httal htvam">
+							<h4 id="header_100" class="form-header" data-component="header">
+								Availability
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="form-row">
+				<div class="col-md-4  form-label">
+					What days are you available to work?
+				</div>
+				<div class="col-md-8">
+					<div class="form-row">
+						<div class="form-group col-md-12">
+							<div class="input-group ">
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="days1" name="days" class="custom-control-input">
+									<label class="custom-control-label" for="days1">Sundays</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="days2" name="days" class="custom-control-input">
+									<label class="custom-control-label" for="days2">Mondays</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="days3" name="days" class="custom-control-input">
+									<label class="custom-control-label" for="days3">Tuesdays</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="days4" name="days" class="custom-control-input">
+									<label class="custom-control-label" for="days4">Wednesdays</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="days5" name="days" class="custom-control-input">
+									<label class="custom-control-label" for="days5">Thursdays</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="days6" name="days" class="custom-control-input">
+									<label class="custom-control-label" for="days6">Fridays</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="days7" name="days" class="custom-control-input">
+									<label class="custom-control-label" for="days7">Saturdays</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<!-- shift starts -->
+				<div class="form-row">
+						<div class="col-md-4  form-label">
+							What times are you available to work?
+						</div>
+						<div class="col-md-8">
+							<div class="form-row">
+								<div class="form-group col-md-12">
+									<div class="input-group ">
+										<div class="custom-control custom-radio custom-control-inline">
+											<input type="radio" id="shift1" name="shiftTimings"
+												class="custom-control-input">
+											<label class="custom-control-label" for="shift1">Morning Shifts</label>
+										</div>
+										<div class="custom-control custom-radio custom-control-inline">
+											<input type="radio" id="shift2" name="shiftTimings"
+												class="custom-control-input">
+											<label class="custom-control-label"  for="shift2">Afternoon Shifts</label>
+										</div>
+										<div class="custom-control custom-radio custom-control-inline">
+											<input type="radio" id="shift3" name="shiftTimings"
+												class="custom-control-input">
+											<label class="custom-control-label"  for="shift3">Evening Shifts</label>
+										</div>
+										<div class="custom-control custom-radio custom-control-inline">
+											<input type="radio" id="shift4" name="shiftTimings"
+												class="custom-control-input">
+											<label class="custom-control-label"  for="shift4">Overnight Shifts</label>
+										</div>
+										<div class="custom-control custom-radio custom-control-inline">
+											<input type="radio" id="shift5" name="shiftTimings"
+												class="custom-control-input">
+											<label class="custom-control-label" for="shift5">Anytime</label>
+										</div>
+									</div>  
+								</div>
+							</div>
+						</div>
+					</div>
+				<!-- shift end -->
+				<!-- short notice starts -->
+				<div class="form-row">
+						<div class="col-md-4  form-label">
+								Are you available on short notice?
+						</div>
+						<div class="col-md-8">
+							<div class="form-row">
+									<div class="form-group col-md-12">
+										<!-- <label for="male" class="lblCls">Gender</label> -->
+										<div class="input-group ">
+											<div class="custom-control custom-radio custom-control-inline">
+												<input type="radio" id="shortNotice_yes" name="shortNotice" class="custom-control-input">
+												<label class="custom-control-label" for="shortNotice_yes">Yes</label>
+											</div>
+											<div class="custom-control custom-radio custom-control-inline">
+												<input type="radio" id="shortNotice_no" name="shortNotice" class="custom-control-input">
+												<label class="custom-control-label" for="shortNotice_no">No</label>
+											</div>
+										</div>
+									</div>
+		
+							</div>
+						</div>
+					</div>
+				<!-- short notice end -->
+				
+				   
+						<!--Availability ends  -->
+					
+							<!-- step 2 end -->
+					</div>
+						<div class="tab-pane" id="tab3">
+							<br>
+							<h3><strong>Step 3</strong> - Domain Setup</h3>
+							<!-- Professional Preferences start -->
     
-                        </div>
-                    </div>
-                    <!--Name of college column -->
-                </div><!-- Name of college row -->
-    
-                <div class="form-row">
-                    <div class="col-md-4 form-label">
-                        Employer Phone  Number
-                    </div>
-                    <div class="col-md-8">
-                        <div class="form-row">
-                                <div class="form-group col-md-2">
-                                        <input type="text" id="employerPhone" class="form-control " size="10" value="" />
-                                    </div>
-                            <div class="form-group col-md-4">
-                                <input type="text" id="employerPhone" class="form-control " size="10" value="" />
-                            </div>
-                            <div class="form-group col-md-6">&nbsp;</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-md-4 form-label">
-                        Dates Worked
-                    </div>
-                    <div class="col-md-8">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" id="datesWorked" class="form-control " size="10" value="" />
-                            </div>
-                            <div class="form-group col-md-6">&nbsp;</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-row">
-                        <div class="col-md-4 form-label">
-                          Position or Title
-                        </div>
-                        <div class="col-md-8">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" id="positionOrTitle" class="form-control " size="10" value="" />
-                                </div>
-                                <div class="form-group col-md-6">&nbsp;</div>
-                            </div>
-                        </div>
-                    </div>
+							<div class="form-row">
+								<div class="col-md-4   labl-v-align">
+									Full Name
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<label for="fName" class="lblCls">First Name</label>
+											<div class="input-group mb-3 input-group-sm">
+												<input type="text" id="fName" class="form-control " size="10" value=""
+													aria-describedby="basic-addon2" />
+												<div class="input-group-append">
+													<span class="input-group-text" id="basic-addon2"><i
+															class="fa fa-user"></i></span>
+												</div>
+											</div>
+										</div>
+										<div class="form-group col-md-6">
+											<label for="lName" class="lblCls">Last Name</label>
+											<div class="input-group mb-3  input-group-sm">
+												<input type="text" id="lName" class="form-control " size="10" value=""
+													aria-describedby="basic-addon2" />
+												<div class="input-group-append">
+													<span class="input-group-text" id="basic-addon2"><i
+															class="fa fa-user"></i></span>
+												</div>
+											</div>
+										</div>
+										<!-- <div class="form-group col-md-4">&nbsp;</div> -->
+									</div>
+								</div><!-- column -->
+							</div><!-- row -->
+			
+							<!-- phone no -->
+							<div class="form-row">
+								<div class="col-md-4   form-label">
+									Employer Phone Number
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-2">
+											<input type="text" id="employerPhone" class="form-control " size="10" value="" />
+										</div>
+										<div class="form-group col-md-4">
+											<input type="text" id="employerPhone" class="form-control " size="10" value="" />
+										</div>
+										<div class="form-group col-md-6">&nbsp;</div>
+									</div>
+								</div>
+							</div>
+			
+							<!-- Company -->
+							<div class="form-row">
+								<div class="col-md-4  form-label">
+									Company
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<input type="text" id="comp_phone" class="form-control " size="10" value="" />
+										</div>
+										<div class="form-group col-md-6">&nbsp;</div>
+									</div>
+								</div>
+							</div>
+							<!-- city/state  -->
+							<div class="form-row">
+								<div class="col-md-4  form-label">
+								City/State
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<input type="text" id="comp_city" class="form-control " size="10" value="" />
+										</div>
+										<div class="form-group col-md-6">&nbsp;</div>
+									</div>
+								</div>
+							</div>
+							<!-- Relationship to you -->
+							<div class="form-row">
+								<div class="col-md-4 form-label ">
+								Relationship to you
+								</div>
+								<div class="col-md-8">
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<input type="text" id="comp_relation" class="form-control " size="10" value="" />
+										</div>
+										<div class="form-group col-md-6">&nbsp;</div>
+									</div>
+								</div>
+							</div>
+							<!-- can i contact this person/ -->
+							<div class="form-row">
+									<div class="col-md-4  form-label">
+											Can i cotact this person
+									</div>
+									<div class="col-md-8">
+										<div class="form-row">
+												<div class="form-group col-md-12">
+													<!-- <label for="male" class="lblCls">Gender</label> -->
+													<div class="input-group ">
+														<div class="custom-control custom-radio custom-control-inline">
+															<input type="radio" id="contactPerson_yes" name="contactPerson" class="custom-control-input">
+															<label class="custom-control-label" for="contactPerson_yes">Yes</label>
+														</div>
+														<div class="custom-control custom-radio custom-control-inline">
+															<input type="radio" id="contactPerson_no" name="contactPerson" class="custom-control-input">
+															<label class="custom-control-label" for="contactPerson_no">No</label>
+														</div>
+													</div>
+												</div>
+			
+										</div>
+									</div>
+								</div>
+						<!-- Professional Preferences end -->
+						</div>
+						<div class="tab-pane" id="tab4">
+							<br>
+							<h3><strong>Step 4</strong> - Save Form</h3>
+							<br>
+							<h1 class="text-center text-success"><strong><i class="fa fa-check fa-lg"></i>
+									Complete</strong></h1>
+							<h4 class="text-center">Click next to finish</h4>
+							<br>
+							<br>
+						</div>
 
-                    <div class="form-row">
-                            <div class="col-md-4 form-label">
-                              Supervisor's Name
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <input type="text" id="supervisorsNme" class="form-control " size="10" value="" />
-                                    </div>
-                                    <div class="form-group col-md-6">&nbsp;</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    <div class="form-row">
-                            <div class="col-md-4 form-label">
-                              Reason for  leaving
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <input type="text" id="reasonForLeaving" class="form-control " size="10" value="" />
-                                    </div>
-                                    <div class="form-group col-md-6">&nbsp;</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-            <!--Recent Employment History ends -->
+						<div class="form-actions">
+							<div class="row">
+								<div class="col-sm-12">
+									<ul class="pager wizard no-margin">
+										<!--<li class="previous first disabled">
+																		<a href="javascript:void(0);" class="btn btn-lg btn-default"> First </a>
+																		</li>-->
+										<li class="previous disabled">
+											<a href="javascript:void(0);" class="btn btn-lg btn-default"> Previous </a>
+										</li>
+										<!--<li class="next last">
+																		<a href="javascript:void(0);" class="btn btn-lg btn-primary"> Last </a>
+																		</li>-->
+										<li class="next">
+											<a href="javascript:void(0);" class="btn btn-lg txt-color-darken"> Next </a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
 
-            <!--Employment History starts -->
-            <div class="form-row">
-                    <div class="col-md-12 ">
-                        <div class="form-header-group ">
-                            <div class="header-text httal htvam">
-                                <h4 id="header_100" class="form-header" data-component="header">
-                                    Employment History
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="form-row">
-                    <div class="col-md-4 form-label">
-                         Employer
-                    </div>
-                    <div class="col-md-8">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" id="employer" class="form-control " size="10" value="" />
-                            </div>
-                            <div class="form-group col-md-6">&nbsp;</div>
-    
-                        </div>
-                    </div>
-                    <!--Name of college column -->
-                </div><!-- Name of college row -->
-    
-                <div class="form-row">
-                    <div class="col-md-4 form-label">
-                        Employer Phone  Number
-                    </div>
-                    <div class="col-md-8">
-                        <div class="form-row">
-                                <div class="form-group col-md-2">
-                                        <input type="text" id="employerPhone" class="form-control " size="10" value="" />
-                                    </div>
-                            <div class="form-group col-md-4">
-                                <input type="text" id="employerPhone" class="form-control " size="10" value="" />
-                            </div>
-                            <div class="form-group col-md-6">&nbsp;</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-md-4 form-label">
-                        Dates Worked
-                    </div>
-                    <div class="col-md-8">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" id="datesWorked" class="form-control " size="10" value="" />
-                            </div>
-                            <div class="form-group col-md-6">&nbsp;</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-row">
-                        <div class="col-md-4  form-label">
-                          Position or Title
-                        </div>
-                        <div class="col-md-8">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" id="positionOrTitle" class="form-control " size="10" value="" />
-                                </div>
-                                <div class="form-group col-md-6">&nbsp;</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-row">
-                            <div class="col-md-4  form-label">
-                              Supervisor's Name
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <input type="text" id="supervisorsNme" class="form-control " size="10" value="" />
-                                    </div>
-                                    <div class="form-group col-md-6">&nbsp;</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    <div class="form-row">
-                            <div class="col-md-4  form-label">
-                              Reason for  leaving
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <input type="text" id="reasonForLeaving" class="form-control " size="10" value="" />
-                                    </div>
-                                    <div class="form-group col-md-6">&nbsp;</div>
-                                </div>
-                            </div>
-                        </div>
-            <!-- Employment History ends -->
-<!--Availability starts  -->
-
-<div class="form-row">
-        <div class="col-md-12 ">
-            <div class="form-header-group ">
-                <div class="header-text httal htvam">
-                    <h4 id="header_100" class="form-header" data-component="header">
-                        Availability
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="form-row">
-        <div class="col-md-4  form-label">
-            What days are you available to work?
-        </div>
-        <div class="col-md-8">
-            <div class="form-row">
-                <div class="form-group col-md-12">
-                    <div class="input-group ">
-                        <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="days1" name="days" class="custom-control-input">
-                            <label class="custom-control-label" for="days1">Sundays</label>
-                        </div>
-                        <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="days2" name="days" class="custom-control-input">
-                            <label class="custom-control-label" for="days2">Mondays</label>
-                        </div>
-                        <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="days3" name="days" class="custom-control-input">
-                            <label class="custom-control-label" for="days3">Tuesdays</label>
-                        </div>
-                        <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="days4" name="days" class="custom-control-input">
-                            <label class="custom-control-label" for="days4">Wednesdays</label>
-                        </div>
-                        <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="days5" name="days" class="custom-control-input">
-                            <label class="custom-control-label" for="days5">Thursdays</label>
-                        </div>
-                        <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="days6" name="days" class="custom-control-input">
-                            <label class="custom-control-label" for="days6">Fridays</label>
-                        </div>
-                        <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="days7" name="days" class="custom-control-input">
-                            <label class="custom-control-label" for="days7">Saturdays</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <!-- shift starts -->
-        <div class="form-row">
-                <div class="col-md-4  form-label">
-                    What times are you available to work?
-                </div>
-                <div class="col-md-8">
-                    <div class="form-row">
-                        <div class="form-group col-md-12">
-                            <div class="input-group ">
-                                <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" id="shift1" name="shiftTimings"
-                                        class="custom-control-input">
-                                    <label class="custom-control-label" for="shift1">Morning Shifts</label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" id="shift2" name="shiftTimings"
-                                        class="custom-control-input">
-                                    <label class="custom-control-label"  for="shift2">Afternoon Shifts</label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" id="shift3" name="shiftTimings"
-                                        class="custom-control-input">
-                                    <label class="custom-control-label"  for="shift3">Evening Shifts</label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" id="shift4" name="shiftTimings"
-                                        class="custom-control-input">
-                                    <label class="custom-control-label"  for="shift4">Overnight Shifts</label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" id="shift5" name="shiftTimings"
-                                        class="custom-control-input">
-                                    <label class="custom-control-label" for="shift5">Anytime</label>
-                                </div>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <!-- shift end -->
-        <!-- short notice starts -->
-        <div class="form-row">
-                <div class="col-md-4  form-label">
-                        Are you available on short notice?
-                </div>
-                <div class="col-md-8">
-                    <div class="form-row">
-                            <div class="form-group col-md-12">
-                                <!-- <label for="male" class="lblCls">Gender</label> -->
-                                <div class="input-group ">
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="shortNotice_yes" name="shortNotice" class="custom-control-input">
-                                        <label class="custom-control-label" for="shortNotice_yes">Yes</label>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="shortNotice_no" name="shortNotice" class="custom-control-input">
-                                        <label class="custom-control-label" for="shortNotice_no">No</label>
-                                    </div>
-                                </div>
-                            </div>
-
-                    </div>
-                </div>
-            </div>
-        <!-- short notice end -->
-        
-           
-                <!--Availability ends  -->
-            
-                    <!-- step 2 end -->
-                </div>
-                <div id="step-3" class="">
-                        <h3 class="border-bottom border-gray pb-2">Professional References</h3>
-                    
-            <!-- Professional Preferences start -->
-    
-                <div class="form-row">
-                        <div class="col-md-4   labl-v-align">
-                            Full Name
-                        </div>
-                        <div class="col-md-8">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="fName" class="lblCls">First Name</label>
-                                    <div class="input-group mb-3 input-group-sm">
-                                        <input type="text" id="fName" class="form-control " size="10" value=""
-                                            aria-describedby="basic-addon2" />
-                                        <div class="input-group-append">
-                                            <span class="input-group-text" id="basic-addon2"><i
-                                                    class="fa fa-user"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="lName" class="lblCls">Last Name</label>
-                                    <div class="input-group mb-3  input-group-sm">
-                                        <input type="text" id="lName" class="form-control " size="10" value=""
-                                            aria-describedby="basic-addon2" />
-                                        <div class="input-group-append">
-                                            <span class="input-group-text" id="basic-addon2"><i
-                                                    class="fa fa-user"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="form-group col-md-4">&nbsp;</div> -->
-                            </div>
-                        </div><!-- column -->
-                    </div><!-- row -->
-    
-                    <!-- phone no -->
-                    <div class="form-row">
-                        <div class="col-md-4   form-label">
-                            Employer Phone Number
-                        </div>
-                        <div class="col-md-8">
-                            <div class="form-row">
-                                <div class="form-group col-md-2">
-                                    <input type="text" id="employerPhone" class="form-control " size="10" value="" />
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <input type="text" id="employerPhone" class="form-control " size="10" value="" />
-                                </div>
-                                <div class="form-group col-md-6">&nbsp;</div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!-- Company -->
-                    <div class="form-row">
-                        <div class="col-md-4  form-label">
-                            Company
-                        </div>
-                        <div class="col-md-8">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" id="comp_phone" class="form-control " size="10" value="" />
-                                </div>
-                                <div class="form-group col-md-6">&nbsp;</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- city/state  -->
-                    <div class="form-row">
-                        <div class="col-md-4  form-label">
-                        City/State
-                        </div>
-                        <div class="col-md-8">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" id="comp_city" class="form-control " size="10" value="" />
-                                </div>
-                                <div class="form-group col-md-6">&nbsp;</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Relationship to you -->
-                    <div class="form-row">
-                        <div class="col-md-4 form-label ">
-                        Relationship to you
-                        </div>
-                        <div class="col-md-8">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" id="comp_relation" class="form-control " size="10" value="" />
-                                </div>
-                                <div class="form-group col-md-6">&nbsp;</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- can i contact this person/ -->
-                    <div class="form-row">
-                            <div class="col-md-4  form-label">
-                                    Can i cotact this person
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form-row">
-                                        <div class="form-group col-md-12">
-                                            <!-- <label for="male" class="lblCls">Gender</label> -->
-                                            <div class="input-group ">
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" id="contactPerson_yes" name="contactPerson" class="custom-control-input">
-                                                    <label class="custom-control-label" for="contactPerson_yes">Yes</label>
-                                                </div>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" id="contactPerson_no" name="contactPerson" class="custom-control-input">
-                                                    <label class="custom-control-label" for="contactPerson_no">No</label>
-                                                </div>
-                                            </div>
-                                        </div>
-    
-                                </div>
-                            </div>
-                        </div>
-                <!-- Professional Preferences end -->
-                </div>
-                <div id="step-4" class="">
-                    <h3 class="border-bottom border-gray pb-2">Save Form</h3>
-                    
-                </div>
-            </div>
-        </div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+</div>
 
 
-    </div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+			if (!window.jQuery) {
+				document.write('<script src="js/libs/jquery-3.2.1.min.js"><\/script>');
+			}
+		</script>
 
-    <!-- Include jQuery -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script>
+			if (!window.jQuery.ui) {
+				document.write('<script src="js/jquery-ui.min.js"><\/script>');
+			}
+		</script>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="js/jquery.bootstrap.wizard.min.js"></script>
+		<script src="js/plugin/fuelux/wizard/wizard.min.js"></script>
+		<script>
+			$(document).ready(function() {
+			
+			//Bootstrap Wizard Validations
 
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+			  var $validator = $("#wizard-1").validate({
+			    rules: {
+			      name: {
+			        required: true
+			      },
+			      lname: {
+			        required: true
+			      }
+			    },
+			    messages: {
+			      fname: "Please specify your First name",
+			      lname: "Please specify your Last name"
+			    },
+			    
+			    highlight: function (element) {
+			      $(element).closest('.form-group').removeClass('has-success').addClass('has-error');
+			    },
+			    unhighlight: function (element) {
+			      $(element).closest('.form-group').removeClass('has-error').addClass('has-success');
+			    },
+			    errorElement: 'span',
+			    errorClass: 'help-block',
+			    errorPlacement: function (error, element) {
+			      if (element.parent('.input-group').length) {
+			        error.insertAfter(element.parent());
+			      } else {
+			        error.insertAfter(element);
+			      }
+			    }
+			  });
+			  
+			  $('#bootstrap-wizard-1').bootstrapWizard({
+			    'tabClass': 'form-wizard',
+			    'onNext': function (tab, navigation, index) {
+			      var $valid = $("#wizard-1").valid();
+			      if (!$valid) {
+			        $validator.focusInvalid();
+			        return false;
+			      } else {
+			        $('#bootstrap-wizard-1').find('.form-wizard').children('li').eq(index - 1).addClass(
+			          'complete');
+			        $('#bootstrap-wizard-1').find('.form-wizard').children('li').eq(index - 1).find('.step')
+			        .html('<i class="fa fa-check"></i>');
+			      }
+			    }
+			  });
+			  
+		
+			// fuelux wizard
+			  var wizard = $('.wizard').wizard();
+			  
+			  wizard.on('finished', function (e, data) {
+			    //$("#fuelux-wizard").submit();
+			    //console.log("submitted!");
+			    $.smallBox({
+			      title: "Congratulations! Your form was submitted",
+			      content: "<i class='fa fa-clock-o'></i> <i>1 seconds ago...</i>",
+			      color: "#5F895F",
+			      iconSmall: "fa fa-check bounce animated",
+			      timeout: 4000
+			    });
+			    
+			  });
 
-    <!-- Include SmartWizard JavaScript source -->
-    <script type="text/javascript" src="js/jquery.smartWizard.min.js"></script>
+		
+		})
 
-    <script type="text/javascript">
-        $(document).ready(function(){
+		</script>
 
-            // Step show event
-            $("#smartwizard").on("showStep", function(e, anchorObject, stepNumber, stepDirection, stepPosition) {
-               //alert("You are on step "+stepNumber+" now");
-               if(stepPosition === 'first'){
-                   $("#prev-btn").addClass('disabled');
-               }else if(stepPosition === 'final'){
-                   $("#next-btn").addClass('disabled');
-               }else{
-                   $("#prev-btn").removeClass('disabled');
-                   $("#next-btn").removeClass('disabled');
-               }
-            });
-
-            // Toolbar extra buttons
-            var btnFinish = $('<button></button>').text('Finish')
-                                             .addClass('btn btn-info')
-                                             .on('click', function(){ alert('Finish Clicked'); });
-            var btnCancel = $('<button></button>').text('Cancel')
-                                             .addClass('btn btn-danger')
-                                             .on('click', function(){ $('#smartwizard').smartWizard("reset"); });
-
-
-            // Smart Wizard
-            $('#smartwizard').smartWizard({
-                    selected: 0,
-                    theme: 'circles',
-                    transitionEffect:'fade',
-                    showStepURLhash: true,
-                    toolbarSettings: {toolbarPosition: 'both',
-                                      toolbarButtonPosition: 'end',
-                                      toolbarExtraButtons: [btnFinish, btnCancel]
-                                    }
-            });
-
-
-            // External Button Events
-            $("#reset-btn").on("click", function() {
-                // Reset wizard
-                $('#smartwizard').smartWizard("reset");
-                return true;
-            });
-
-            $("#prev-btn").on("click", function() {
-                // Navigate previous
-                $('#smartwizard').smartWizard("prev");
-                return true;
-            });
-
-            $("#next-btn").on("click", function() {
-                // Navigate next
-                $('#smartwizard').smartWizard("next");
-                return true;
-            });
-
-            $("#theme_selector").on("change", function() {
-                // Change theme
-                $('#smartwizard').smartWizard("theme", $(this).val());
-                return true;
-            });
-
-            // Set selected theme on page refresh
-           /*  $("#theme_selector").change(); */
-        });
-    </script>
-</body>
+		</body>
 </html>
